@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hanta.Client.App", "Hanta.Client.App\Hanta.Client.App.csproj", "{989BA857-3619-4252-BC96-D1045CAE87F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hanta.Client.Views", "Hanta.Client.Views\Hanta.Client.Views.csproj", "{F6B68290-EE29-40D3-A13B-1DC901C5713C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hanta.Client.ViewModels", "Hanta.Client.ViewModels\Hanta.Client.ViewModels.csproj", "{BBCDCC79-822E-4999-BC57-0153350AA5A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hanta.Client.Abstract", "Hanta.Client.Abstract\Hanta.Client.Abstract.csproj", "{A43FDC81-C935-40CB-BABF-8DED5024F7F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hanta.Client.Models", "Hanta.Client.Models\Hanta.Client.Models.csproj", "{2F44FFBC-40C1-4E22-8430-427631CCB36A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hanta.Client.Domain", "Hanta.Client.Domain\Hanta.Client.Domain.csproj", "{65402306-9ECE-4C0E-AF1A-028C6AFBEC00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{989BA857-3619-4252-BC96-D1045CAE87F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{989BA857-3619-4252-BC96-D1045CAE87F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{989BA857-3619-4252-BC96-D1045CAE87F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{989BA857-3619-4252-BC96-D1045CAE87F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6B68290-EE29-40D3-A13B-1DC901C5713C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6B68290-EE29-40D3-A13B-1DC901C5713C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6B68290-EE29-40D3-A13B-1DC901C5713C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6B68290-EE29-40D3-A13B-1DC901C5713C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBCDCC79-822E-4999-BC57-0153350AA5A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBCDCC79-822E-4999-BC57-0153350AA5A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBCDCC79-822E-4999-BC57-0153350AA5A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBCDCC79-822E-4999-BC57-0153350AA5A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A43FDC81-C935-40CB-BABF-8DED5024F7F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A43FDC81-C935-40CB-BABF-8DED5024F7F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A43FDC81-C935-40CB-BABF-8DED5024F7F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A43FDC81-C935-40CB-BABF-8DED5024F7F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F44FFBC-40C1-4E22-8430-427631CCB36A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F44FFBC-40C1-4E22-8430-427631CCB36A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F44FFBC-40C1-4E22-8430-427631CCB36A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F44FFBC-40C1-4E22-8430-427631CCB36A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65402306-9ECE-4C0E-AF1A-028C6AFBEC00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65402306-9ECE-4C0E-AF1A-028C6AFBEC00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65402306-9ECE-4C0E-AF1A-028C6AFBEC00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65402306-9ECE-4C0E-AF1A-028C6AFBEC00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ECC91F19-4417-45BE-9F2C-8467EA19C752}
+	EndGlobalSection
+EndGlobal
