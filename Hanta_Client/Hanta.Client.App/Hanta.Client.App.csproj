@@ -7,7 +7,13 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
     <AssemblyName>Hanta_Client</AssemblyName>
+    <ApplicationIcon>Hanta_Client.ico</ApplicationIcon>
+    <BaseOutputPath></BaseOutputPath>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Hanta_Client.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />

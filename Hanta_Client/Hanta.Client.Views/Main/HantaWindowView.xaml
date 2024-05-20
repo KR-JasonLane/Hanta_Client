@@ -4,9 +4,36 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Hanta.Client.Views.Main"
+        Background="{DynamicResource MaterialDesignPaper}"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Hanta Client" Height="450" Width="800">
+
+    <!--윈도우 프레임 설정-->
+    <WindowChrome.WindowChrome>
+        <WindowChrome ResizeBorderThickness="5" GlassFrameThickness="0" CaptionHeight="0" />
+    </WindowChrome.WindowChrome>
+    
     <Grid>
+
+        <Grid.ColumnDefinitions>
+            <!--메뉴 탭 영역-->
+            <ColumnDefinition Width="50"/>
+            <!--타이틀바 / 작업뷰 영역-->
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        
+        
+
+        <!--  타이틀바 / 작업뷰  -->
+        <Grid Grid.Column="1">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+        </Grid>
 
     </Grid>
 </Window>

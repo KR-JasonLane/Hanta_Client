@@ -4,6 +4,13 @@
              xmlns:local="clr-namespace:Hanta.Client.App"
              Startup="OnStartUp">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                
+                <!--MaterialDesign 패키지 속성 맵핑-->
+                <ResourceDictionary Source="/Hanta.Client.Views;component/MaterialDesign/MaterialDesignResources.xaml"/>
+
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>         
     </Application.Resources>
 </Application>
