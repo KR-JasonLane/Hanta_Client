@@ -1,4 +1,6 @@
-﻿using Hanta.Client.ViewModels.Main;
+﻿using Hanta.Client.Abstract.Service;
+using Hanta.Client.Domain.Service;
+using Hanta.Client.ViewModels.Main;
 
 namespace Hanta.Client.App;
 
@@ -24,6 +26,14 @@ public static class IocBuilder
 	private static IServiceProvider ConfigureService()
 	{
 		var services = new ServiceCollection();
+
+		////////////////////////////////////////
+		// Services
+		////////////////////////////////////////
+		{
+			services.AddSingleton<IDirectoryService, DirectoryService>();
+			services.AddSingleton<IPluginService   , PluginService   >();
+		}
 
 
 		////////////////////////////////////////

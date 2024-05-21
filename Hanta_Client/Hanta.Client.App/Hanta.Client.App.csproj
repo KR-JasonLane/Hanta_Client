@@ -24,6 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Hanta.Client.Domain\Hanta.Client.Domain.csproj" />
     <ProjectReference Include="..\Hanta.Client.ViewModels\Hanta.Client.ViewModels.csproj" />
     <ProjectReference Include="..\Hanta.Client.Views\Hanta.Client.Views.csproj" />
   </ItemGroup>

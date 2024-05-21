@@ -7,4 +7,14 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="System.ComponentModel.Composition" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Hanta.Client.Abstract\Hanta.Client.Abstract.csproj" />
+    <ProjectReference Include="..\Hanta.Client.ViewModels\Hanta.Client.ViewModels.csproj" />
+    <ProjectReference Include="..\Hanta.Client.Views\Hanta.Client.Views.csproj" />
+  </ItemGroup>
+
 </Project>
