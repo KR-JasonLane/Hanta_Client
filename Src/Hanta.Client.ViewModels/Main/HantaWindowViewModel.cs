@@ -1,4 +1,4 @@
-﻿using Hanta.Client.Abstract.Plugin;
+﻿using Hanta.Plugin.Abstract.Plugin;
 using Hanta.Client.Abstract.Service;
 using Hanta.Client.Abstract.ViewModel;
 
@@ -6,7 +6,7 @@ namespace Hanta.Client.ViewModels.Main;
 /// <summary>
 /// Hanta Client 메인윈도우 뷰모델
 /// </summary>
-public partial class HantaWindowViewModel : ObservableRecipient, IViewModel
+public partial class HantaWindowViewModel : ObservableRecipient, IClientViewModel
 {
 	/// <summary>
 	/// 생성자

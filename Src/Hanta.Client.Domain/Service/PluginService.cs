@@ -1,4 +1,4 @@
-﻿using Hanta.Client.Abstract.Plugin;
+﻿using Hanta.Plugin.Abstract.Plugin;
 using Hanta.Client.Abstract.Service;
 using System.Collections;
 

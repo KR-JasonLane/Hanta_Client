@@ -1,0 +1,88 @@
+﻿<Window x:Class="Hanta.Client.Views.Main.HantaWindowView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:Hanta.Client.Views.Main"
+        Background="{DynamicResource MaterialDesignPaper}"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        mc:Ignorable="d"
+        Title="Hanta Client" 
+        MinHeight="600" 
+        MinWidth="900">
+
+    <!--윈도우 프레임 설정-->
+    <WindowChrome.WindowChrome>
+        <WindowChrome ResizeBorderThickness="5" GlassFrameThickness="0" CaptionHeight="0" />
+    </WindowChrome.WindowChrome>
+
+    
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <!--타이틀바 영역-->
+            <RowDefinition Height="40"/>
+            <!--메인뷰 영역-->
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- 타이틀바 -->
+        <Grid Grid.Row="0">
+            
+        </Grid>
+
+        <!--메인뷰 다이얼로그 호스트-->
+        <md:DialogHost Grid.Row="1"
+                       DialogTheme="Inherit"
+                       Identifier="RootDialog">
+
+            <!-- 설정창 전용 드로워 호스트 -->
+            <md:DrawerHost Name="WorkSpaceDrawer">
+                
+                <!--메인뷰-->
+                <Grid>
+
+                    <Grid.ColumnDefinitions>
+                        <!--메뉴 탭 영역-->
+                        <ColumnDefinition Width="50"/>
+                        <!--작업뷰 영역-->
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <!--메뉴 탭 영역-->
+                    <Grid Grid.Column="0">
+                        
+                    </Grid>
+
+                    <!--  작업뷰  -->
+                    <Grid Grid.Column="1">
+
+                        <Grid.RowDefinitions>
+                            <!--  작업 상태바 영역  -->
+                            <RowDefinition Height="70"/>
+                            <!--  작업 메인뷰 영역  -->
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <!--  작업 상태바  -->
+                        <Grid Grid.Row="0">
+                            
+                        </Grid>
+
+                        <!--  작업 메인뷰  -->
+                        <Grid Grid.Row="1">
+
+                        </Grid>
+
+                    </Grid>
+
+                </Grid>
+                
+            </md:DrawerHost>
+
+        </md:DialogHost>
+        
+    </Grid>   
+    
+</Window>
